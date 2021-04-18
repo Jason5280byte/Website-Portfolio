@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <title>TITLE</title>
+     <meta name="description" content="DESCRIPTION">
+    <link rel="stylesheet" href="styles.css">
+
+     <!--[if lt IE 9]>
+       <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <![endif]-->
+ </head>
+
+ <body>
+  <form action="" method="GET">
+    <h2><label for="Username:">Username</label></h2>
+    <input id="username" type="text" placeholder="username" name="username" required autofocus>
+    <br>
+    <label for="Password:"><h2>Password</h2></label>
+    <input id="password" type="password" placeholder="password" name="password" required>
+    <br>
+    <br>
+    <label for="robot">I am not a robot</label>
+    <input id="robot" type="radio" name="check" value="human">
+    <label for="robot">I am a robot</label>
+    <input id="notrobot" type="radio" name="check" value="robot">
+    <br>
+    <label for="age">Age</label>
+    <select name="age" id="age">
+      <option value="age1">18-25</option>
+      <option value="age2">26-35</option>
+      <option value="age3">36-45</option>
+      <option value="age4">46-55</option>
+      <option value="age5">56-65</option>
+      <option value="age6">Over 65</option>
+    </select>
+    <br>
+    <br>
+    <label for="story">Story</label>
+    <br>
+    <textarea name="story" rows="10" cols="50">Tell us about yourself?</textarea required>
+    <button>Submit</button>
+
+  </form>
+ </body>
+
+ </html>

@@ -1,0 +1,18 @@
+/*Element*/
+h1 {
+  color:red;
+}
+
+  /* ID
+  #header_1 {
+    color:red;
+  }
+  #header_2 {
+    color:blue;
+  }
+  */
+/*Class*/
+
+.yellow_bg{
+  background-color: cornflowerblue;
+}

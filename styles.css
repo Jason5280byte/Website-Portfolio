@@ -1,0 +1,33 @@
+
+body {
+  background: url(https://media.wired.com/photos/5bb6accf0abf932caf294b18/master/pass/waves-730260985.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+
+}
+h1 {
+  color:#264653;
+  background-color: #e76f51;
+  border: 10px solid #e9c46a;
+  border-radius: 20px
+}
+li {
+  border: 5px solid #264653
+}
+div {
+  background-color:#e76f51;
+  border: 6px solid #e9c46a;
+}
+table {
+  background-color:#2a9d8f;
+  border: 6px solid #e9c46a;
+  border-radius: 10px
+}
+input { background-color:#264653
+}
+ul {
+  color:#264653
+}
+ul {
+  background-color:#e9c46a
+}
